@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Mulish-Medium';
+    src: url("../stores/fonts/Mulish-Medium.ttf")
+}
+
+@font-face {
+    font-family: 'Mulish-Regular';
+    src: url("../stores/fonts/Mulish-Regular.ttf")
+}
+
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("../stores/fonts/Mulish-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: 'Mulish-Bold';
+    src: url("../stores/fonts/Mulish-Bold.ttf")
+}
+
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("../stores/fonts/Mulish-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url("../stores/fonts/Mulish-Black.ttf")
+}
