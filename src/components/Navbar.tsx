@@ -4,7 +4,7 @@ import logo from "../stores/images/logo-light.png"
 
 export default function Navbar() {
     return (
-        <nav style={{ height: '20vh'}} className=' w-full bg-[#070b14] px-9 flex justify-center border-b border-[#20242c] ' >
+        <nav className=' w-full bg-[#070b14] px-9 py-6 flex justify-center border-b border-[#20242c] ' >
             <div className='w-full flex items-center  px-4 ' > 
                 <a href='/' >
                     <Image src={logo} width={170} height={61} />

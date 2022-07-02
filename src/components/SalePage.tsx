@@ -5,13 +5,13 @@ import P1 from "../stores/images/p-4.png"
 
 export default function SalePage() {
     return (
-        <div className=' w-screen flex px-12  ' > 
-            <div className=' pt-2' >  
+        <div className=' w-screen h-auto flex px-12  ' > 
+            <div className=' mr-8 h-full my-auto' >  
                 <Catergories />
             </div>
-            <div className=' w-auto flex flex-1 flex-col justify-center items-center h-2/4 pl-8 py-2 ' >
-                <div className=' w-full h-full flex bg-white ' > 
-                    <Image src={P1} width={960} height={350} objectFit="cover" />
+            <div style={{ height: '78vh'}} className=' w-auto relative flex flex-1 flex-col justify-center items-center ' >
+                <div style={{ height: '60vh'}} className=' w-full relative flex ' > 
+                    <Image src={P1} layout="fill" objectFit='cover' className=' rounded-lg ' />
                 </div>
                 <div className=' w-full pt-8 flex justify-center ' >
                     <p className=' text-2xl font-Mulish-SemiBold mx-4 text-[#1da1f2] ' >Rent</p>
